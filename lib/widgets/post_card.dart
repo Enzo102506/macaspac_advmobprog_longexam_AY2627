@@ -171,11 +171,12 @@ class _PostCardState extends State<PostCard> {
                             color: FB_TEXT_COLOR_WHITE,
                             fontWeight: FontWeight.bold,
                           ),
-                          CustomFont(
-                            text: widget.date,
-                            fontSize: 12.sp,
-                            color: FB_TEXT_COLOR_GRAY,
-                          ),
+                          if (widget.date.isNotEmpty)
+                            CustomFont(
+                              text: widget.date,
+                              fontSize: 12.sp,
+                              color: FB_TEXT_COLOR_GRAY,
+                            ),
                         ],
                       ),
                       const Spacer(),

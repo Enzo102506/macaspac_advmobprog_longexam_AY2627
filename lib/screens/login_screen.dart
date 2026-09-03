@@ -3,7 +3,6 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:provider/provider.dart';
 
 import '../constant.dart';
-import '../models/user.dart';
 import '../providers/user_session.dart';
 import '../services/auth_service.dart';
 import '../widgets/custom_dialogs.dart';

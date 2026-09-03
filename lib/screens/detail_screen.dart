@@ -239,7 +239,7 @@ class _DetailScreenState extends State<DetailScreen> {
                   ),
                   SizedBox(width: 10.w),
                   CustomFont(
-                    text: "${post.numComments} Comments",
+                    text: "${comments.length} Comments",
                     fontSize: 14.sp,
                     color: FB_TEXT_COLOR_WHITE,
                   ),
